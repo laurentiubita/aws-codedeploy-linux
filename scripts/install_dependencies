@@ -1,3 +1,5 @@
 #!/bin/bash
-yum install -y httpd
+sudo yum install -y ruby
+sudo yum -y install codedeploy-agent.noarch.rpm
+sudo yum install -y httpd
 
