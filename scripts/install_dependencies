@@ -1,5 +1,9 @@
 #!/bin/bash
+echo "Start install " > install.log
 sudo yum install -y ruby
+echo "Ruby done " >> install.log
 sudo yum -y install codedeploy-agent.noarch.rpm
+echo "Agent done " >> install.log
 sudo yum install -y httpd
+echo "Httpd done " >> install.log
 
